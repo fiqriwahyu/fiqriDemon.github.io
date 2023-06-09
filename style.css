@@ -1,0 +1,194 @@
+
+
+.container {
+    margin: 50px auto;
+}
+
+.aw {
+    justify-content: space-around;
+    display: flex;
+}
+
+.demonbox {
+    position: relative;
+    background-image: url(img/tanjiro.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgb(255, 133, 45);
+    border-radius: 10px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform-style: preserve-3d;
+}
+
+.demonbox::before{
+    content: 'Tanjiro';
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-size: 4em;
+    font-weight: bold;
+    font-style: italic;
+    top: -50px;
+    transition: 0.5s;
+    opacity: 0;
+    transform: translate3d(0,0, 50px);
+
+}
+
+.demonbox:hover::before {
+    opacity: 1;
+    top: -3%;
+}
+
+.demonbox::after{
+    content: 'Matahari';
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-size: 3em;
+    font-weight: bold;
+    font-style: italic;
+    transition: 0.5s;
+    opacity: 0;
+    top: 450px;
+    transition: 0.5s;
+    transform: translate3d(0,0, 50px);
+
+}
+
+.demonbox:hover::after {
+    opacity: 1;
+    bottom: 10%;
+    top: 420px;
+}
+
+.demonbox:hover .gambar {
+    transform: translate3d(0,0, 50px);
+    max-width: 196px;
+}
+
+.gambar {
+    max-width: 160px;
+    transition: 0.5s;
+}
+
+.demonbox2 {
+    position: relative;
+    background-image: url(img/zenitsu.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgb(255, 133, 45);
+    border-radius: 10px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform-style: preserve-3d;
+}
+
+.demonbox2::before{
+    content: 'Zenitsu';
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-size: 4em;
+    font-weight: bold;
+    font-style: italic;
+    top: -50px;
+    transition: 0.5s;
+    opacity: 0;
+    transform: translate3d(0,0, 50px);
+
+}
+
+.demonbox2:hover::before {
+    opacity: 1;
+    top: -3%;
+}
+
+.demonbox2::after{
+    content: 'Petir';
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-size: 3em;
+    font-weight: bold;
+    font-style: italic;
+    transition: 0.5s;
+    opacity: 0;
+    top: 450px;
+    transition: 0.5s;
+    transform: translate3d(0,0, 50px);
+
+}
+
+.demonbox2:hover::after {
+    opacity: 1;
+    bottom: 10%;
+    top: 420px;
+}
+
+.demonbox2:hover .gambar {
+    transform: translate3d(0,0, 50px);
+    max-width: 196px;
+}
+
+/*  */
+
+.demonbox3 {
+    position: relative;
+    background-image: url(img/inosuke\ 2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgb(255, 133, 45);
+    border-radius: 10px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform-style: preserve-3d;
+}
+
+.demonbox3::before{
+    content: 'Inosuke';
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-size: 4em;
+    font-weight: bold;
+    font-style: italic;
+    top: -50px;
+    transition: 0.5s;
+    opacity: 0;
+    transform: translate3d(0,0, 50px);
+
+}
+
+.demonbox3:hover::before {
+    opacity: 1;
+    top: -3%;
+}
+
+.demonbox3::after{
+    content: 'Binatang';
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-size: 3em;
+    font-weight: bold;
+    font-style: italic;
+    transition: 0.5s;
+    opacity: 0;
+    top: 450px;
+    transition: 0.5s;
+    transform: translate3d(0,0, 50px);
+
+}
+
+.demonbox3:hover::after {
+    opacity: 1;
+    bottom: 10%;
+    top: 420px;
+}
+
+.demonbox3:hover .gambar {
+    transform: translate3d(0,0, 50px);
+    max-width: 196px;
+}
